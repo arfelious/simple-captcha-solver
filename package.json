@@ -1,0 +1,25 @@
+{
+  "name": "simple-captcha-solver",
+  "description": "Although captchas are for keeping bots away, some poorly made captchas intrigue people even more to automate the process of solving them. This project does not use any machine learning or deep learning.\r Even the PNG parser is not really compliant with PNG spec as the images provided by the website are limited to palette-indexed 2 bit colors.\r It uses simple image processing techniques to solve captchas, this was a simple project to get started with image processing.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arfelious/simple-captcha-solver.git"
+  },
+  "keywords": [
+    "captcha",
+    "image-processing",
+    "depth-first-search"
+  ],
+  "author": "arfelious",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arfelious/simple-captcha-solver/issues"
+  },
+  "homepage": "https://github.com/arfelious/simple-captcha-solver#readme"
+}
